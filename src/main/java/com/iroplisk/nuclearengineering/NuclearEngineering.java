@@ -1,5 +1,6 @@
 package com.iroplisk.nuclearengineering;
 
+import com.iroplisk.nuclearengineering.items.ItemInit;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
@@ -52,6 +53,8 @@ public class NuclearEngineering
         BLOCKS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
         ITEMS.register(modEventBus);
+
+        ItemInit.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

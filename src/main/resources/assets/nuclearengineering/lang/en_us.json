@@ -1,0 +1,23 @@
+{
+  "itemGroup.nuclearengineering": "Nuclear Engineering",
+
+  "item.nuclearengineering.blanketenricheddu": "Irradiated Depleted Uranium Blanket",
+  "item.nuclearengineering.blanketenrichedheu": "Irradiated Highly Enriched Uranium Blanket",
+  "item.nuclearengineering.blanketenrichedi": "Irradiated Iridium Blanket",
+  "item.nuclearengineering.blanketenrichedleu": "Irradiated Lightly Enriched Uranium Blantket",
+  "item.nuclearengineering.blanketenrichedmgu": "Irradiated Military Grade Enriched Uranium Blanket",
+  "item.nuclearengineering.blanketenrichedp": "Irradiated Plutonium Blanket",
+  "item.nuclearengineering.blanketenricheds": "Irradiated Steel Blanket",
+  "item.nuclearengineering.blanketenrichedu": "Irradiated Uranium Blanket",
+  "item.nuclearengineering.blanketenrichedy": "Irradiated Yttrium Blanket",
+
+  "item.nuclearengineering.blanketdu": "Depleted Uranium Blanket",
+  "item.nuclearengineering.blanketheu": "Highly Enriched Uranium Blanket",
+  "item.nuclearengineering.blanketi": "Iridium Blanket",
+  "item.nuclearengineering.blanketleu": "Lightly Uranium Blanket",
+  "item.nuclearengineering.blanketmgu": "Military Grade Uranium Blanket",
+  "item.nuclearengineering.blanketp": "Plutonium Blanket",
+  "item.nuclearengineering.blankets": "Steel Blanket",
+  "item.nuclearengineering.blanketu": "Uranium Blanket",
+  "item.nuclearengineering.blankety": "Yttrium Blanket"
+}
