@@ -19,5 +19,25 @@
   "item.nuclearengineering.blanketp": "Plutonium Blanket",
   "item.nuclearengineering.blankets": "Steel Blanket",
   "item.nuclearengineering.blanketu": "Uranium Blanket",
-  "item.nuclearengineering.blankety": "Yttrium Blanket"
+  "item.nuclearengineering.blankety": "Yttrium Blanket",
+
+  "item.nuclearengineering.dusta": "Americium-241 Dust",
+  "item.nuclearengineering.dustce": "Cesium-137 Dust",
+  "item.nuclearengineering.dustco": "Cobalt-60 Dust",
+  "item.nuclearengineering.dustio": "Iodine-131 Dust",
+  "item.nuclearengineering.dustir": "Iridium-192 Dust",
+  "item.nuclearengineering.dustm": "Molybdenum-99 Dust",
+  "item.nuclearengineering.dustp": "Plutonium-238 Dust",
+  "item.nuclearengineering.dustsr": "Strontium-90 Dust",
+  "item.nuclearengineering.dusty": "Yttrium-90 Dust",
+
+  "item.nuclearengineering.pelleta": "Americium-241 Pellet",
+  "item.nuclearengineering.pelletce": "Cesium-137 Pellet",
+  "item.nuclearengineering.pelletco": "Cobalt-60 Pellet",
+  "item.nuclearengineering.pelletio": "Iodine-131 Pellet",
+  "item.nuclearengineering.pelletir": "Iridium-192 Pellet",
+  "item.nuclearengineering.pelletm": "Molybdenum-99 Pellet",
+  "item.nuclearengineering.pelletp": "Plutonium-238 Pellet",
+  "item.nuclearengineering.pelletsr": "Strontium-90 Pellett",
+  "item.nuclearengineering.pellety": "Yttrium-90 Pellet"
 }
