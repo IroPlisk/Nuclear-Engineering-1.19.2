@@ -89,7 +89,7 @@ public class ItemInit {
             () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 629));
     public static final RegistryObject<Item> PELLETP = ITEMS.register("pelletp",
             () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "alpha", 644));
-    public static final RegistryObject<Item> PELLETS = ITEMS.register("pellets",
+    public static final RegistryObject<Item> PELLETSR = ITEMS.register("pelletsr",
             () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 5217));
     public static final RegistryObject<Item> PELLETY = ITEMS.register("pellety",
             () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 200));

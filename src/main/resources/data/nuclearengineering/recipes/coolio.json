@@ -1,0 +1,15 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "item": "nuclearengineering:dustio"
+    }
+  ],
+  "result": [
+    {
+      "item": "nuclearengineering:pelletio",
+      "count": 1
+    }
+  ],
+  "energy": 20000
+}

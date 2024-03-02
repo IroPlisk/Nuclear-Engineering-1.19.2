@@ -1,0 +1,15 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "item": "nuclearengineering:dustir"
+    }
+  ],
+  "result": [
+    {
+      "item": "nuclearengineering:pelletir",
+      "count": 1
+    }
+  ],
+  "energy": 20000
+}

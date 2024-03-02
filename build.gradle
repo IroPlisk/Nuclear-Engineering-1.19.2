@@ -149,7 +149,11 @@ dependencies {
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
     implementation fg.deobf("curse.maven:jei-238222:4712866")
-    implementation fg.deobf("curse.maven:ic2-classic-242942:4879119")
+    implementation fg.deobf("curse.maven:ic2-classic-242942:5137503")
+    implementation fg.deobf("curse.maven:thermal-foundation-222880:4782926")
+    implementation fg.deobf("curse.maven:cofh-core-69162:4801049")
+    implementation fg.deobf("curse.maven:thermal-expansion-69163:4782929")
+    implementation fg.deobf("curse.maven:chemlib-340666:4770563")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

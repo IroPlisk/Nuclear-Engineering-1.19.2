@@ -1,0 +1,15 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "item": "nuclearengineering:dustp"
+    }
+  ],
+  "result": [
+    {
+      "item": "rgbdelight:pelletp",
+      "count": 1
+    }
+  ],
+  "energy": 20000
+}

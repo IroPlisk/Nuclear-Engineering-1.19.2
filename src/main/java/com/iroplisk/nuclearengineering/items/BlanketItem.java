@@ -27,7 +27,7 @@ public class BlanketItem extends Item implements IReactorComponent {
             if (itemStack.getDamageValue() == enrichmentDuration) {
                 iReactor.setStackInReactor(i, i1, new ItemStack(resultItem, 1));
             } else {
-                itemStack.setDamageValue(1+(iReactor.getHeat() / 3000));
+                itemStack.setDamageValue(Math.min(1+(iReactor.getHeat() / 3000)+itemStack.getDamageValue(), itemStack.getMaxDamage()));
             }
         }
         return true;

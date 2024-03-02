@@ -1,0 +1,15 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "item": "nuclearengineering:dustsr"
+    }
+  ],
+  "result": [
+    {
+      "item": "nuclearengineering:pelletsr",
+      "count": 1
+    }
+  ],
+  "energy": 20000
+}
