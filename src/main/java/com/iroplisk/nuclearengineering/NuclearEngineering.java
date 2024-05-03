@@ -1,7 +1,12 @@
 package com.iroplisk.nuclearengineering;
 
+import com.iroplisk.nuclearengineering.blocks.BlockInit;
+import com.iroplisk.nuclearengineering.blocks.entity.EntityInit;
+import com.iroplisk.nuclearengineering.handlers.Events;
 import com.iroplisk.nuclearengineering.items.ItemInit;
+import com.iroplisk.nuclearengineering.recipes.IC2CNukeEngCustomRecipes;
 import com.mojang.logging.LogUtils;
+import ic2.core.IC2;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -37,11 +42,6 @@ public class NuclearEngineering
     // Create a Deferred Register to hold Items which will all be registered under the "examplemod" namespace
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
 
-    // Creates a new Block with the id "examplemod:example_block", combining the namespace and path
-    public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE)));
-    // Creates a new BlockItem with the id "examplemod:example_block", combining the namespace and path
-    public static final RegistryObject<Item> EXAMPLE_BLOCK_ITEM = ITEMS.register("example_block", () -> new BlockItem(EXAMPLE_BLOCK.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-
     public NuclearEngineering()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -55,13 +55,15 @@ public class NuclearEngineering
         ITEMS.register(modEventBus);
 
         ItemInit.register(modEventBus);
-
+        BlockInit.register(modEventBus);
+        EntityInit.register(modEventBus);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
+        IC2CNukeEngCustomRecipes.init();
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
         LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));

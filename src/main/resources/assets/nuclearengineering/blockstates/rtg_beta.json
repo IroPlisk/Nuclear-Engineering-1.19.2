@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "nuclearengineering:block/rtg_beta"
+    },
+    "facing=east": {
+      "model": "nuclearengineering:block/rtg_beta",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "nuclearengineering:block/rtg_beta",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nuclearengineering:block/rtg_beta",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cpt",
+    "cts",
+    "cpt"
+  ],
+  "key": {
+    "c": {
+      "item": "chemlib:copper"
+    },
+    "p": {
+      "item": "chemlib:lead"
+    },
+    "t": {
+      "item": "chemlib:tellurium"
+    },
+    "s": {
+      "item": "chemlib:silicon"
+    }
+  },
+  "result": {
+    "item": "nuclearengineering:thermo_junction"
+  }
+}

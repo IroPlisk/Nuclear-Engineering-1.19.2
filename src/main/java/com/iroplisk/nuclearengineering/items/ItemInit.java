@@ -56,43 +56,62 @@ public class ItemInit {
 
     //polveri
     public static final RegistryObject<Item> DUSTA = ITEMS.register("dusta",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "alpha", 127));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "alpha", 127));
     public static final RegistryObject<Item> DUSTCE = ITEMS.register("dustce",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "gamma", 32150));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "gamma", 32150));
     public static final RegistryObject<Item> DUSTCO = ITEMS.register("dustco",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "gamma", 44000));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "gamma", 44000));
     public static final RegistryObject<Item> DUSTIO = ITEMS.register("dustio",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 46000));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 46000));
     public static final RegistryObject<Item> DUSTIR = ITEMS.register("dustir",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "gamma", 22200));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "gamma", 22200));
     public static final RegistryObject<Item> DUSTM = ITEMS.register("dustm",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 629));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 629));
     public static final RegistryObject<Item> DUSTP = ITEMS.register("dustp",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "alpha", 644));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "alpha", 644));
     public static final RegistryObject<Item> DUSTSR = ITEMS.register("dustsr",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 5217));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 5217));
     public static final RegistryObject<Item> DUSTY = ITEMS.register("dusty",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 200));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 200));
+    public static final RegistryObject<Item> DUSTDU = ITEMS.register("dustdu",
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "alpha", 1));
+    public static final RegistryObject<Item> DUSTHEU = ITEMS.register("dustheu",
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "alpha", 14));
+    public static final RegistryObject<Item> DUSTMGU = ITEMS.register("dustmgu",
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "alpha", 37));
+    public static final RegistryObject<Item> DUSTLEU = ITEMS.register("dustleu",
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "alpha", 5));
+
+
 
     //pellet
     public static final RegistryObject<Item> PELLETA = ITEMS.register("pelleta",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "alpha", 127));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "alpha", 127));
     public static final RegistryObject<Item> PELLETCE = ITEMS.register("pelletce",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "gamma", 32150));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "gamma", 32150));
     public static final RegistryObject<Item> PELLETCO = ITEMS.register("pelletco",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "gamma", 44000));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "gamma", 44000));
     public static final RegistryObject<Item> PELLETIO = ITEMS.register("pelletio",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 46000));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 46000));
     public static final RegistryObject<Item> PELLETIR = ITEMS.register("pelletir",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "gamma", 22000));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "gamma", 22000));
     public static final RegistryObject<Item> PELLETM = ITEMS.register("pelletm",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 629));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 629));
     public static final RegistryObject<Item> PELLETP = ITEMS.register("pelletp",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "alpha", 644));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "alpha", 644));
     public static final RegistryObject<Item> PELLETSR = ITEMS.register("pelletsr",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 5217));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 5217));
     public static final RegistryObject<Item> PELLETY = ITEMS.register("pellety",
-            () -> new RadioactiveItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 200));
+            () -> new RadioactiveDustItem(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB, "beta", 200));
 
+    // roba per gli rtg
+    public static final RegistryObject<Item> CERAMIC_PLATE = ITEMS.register("ceramic_plate",
+            () -> new Item(new Item.Properties().tab(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB).stacksTo(64)));
+    public static final RegistryObject<Item> THERMO_JUNCTION = ITEMS.register("thermo_junction",
+            () -> new Item(new Item.Properties().tab(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB).stacksTo(64)));
+    public static final RegistryObject<Item> SMALL_THERMO_GEN = ITEMS.register("small_thermo_gen",
+            () -> new Item(new Item.Properties().tab(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB).stacksTo(64)));
+    public static final RegistryObject<Item> LARGE_THERMO_GEN = ITEMS.register("large_thermo_gen",
+            () -> new Item(new Item.Properties().tab(NuclearEngineeringCreativeModeTab.NUCLEAR_ENGINEERING_CREATIVE_MODE_TAB).stacksTo(64)));
     public static void register(IEventBus eventBus) { ITEMS.register(eventBus);}
 }

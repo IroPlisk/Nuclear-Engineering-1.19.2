@@ -1,0 +1,20 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "enhancedgeology:zircalloyplate",
+      "count": 4
+    },
+    {
+      "tag": "forge:dusts/plutonium",
+      "count": 5
+    }
+  ],
+  "result": [
+    {
+      "item": "nuclearengineering:blanketp",
+      "count": 1
+    }
+  ],
+  "energy": 10000
+}

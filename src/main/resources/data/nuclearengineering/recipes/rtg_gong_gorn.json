@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cjc",
+    "lpl",
+    "sjs"
+  ],
+  "key": {
+    "c": {
+      "item": "ic2:advanced_circuit"
+    },
+    "j": {
+      "item": "nuclearengineering:large_thermo_gen"
+    },
+    "l": {
+      "tag": "forge:storage_blocks/lead"
+    },
+    "p": {
+      "item": "nuclearengineering:pelletsr"
+    },
+    "s": {
+      "item": "ic2:scaffold_iron"
+    }
+  },
+  "result": {
+    "item": "nuclearengineering:rtg_gong_gorn"
+  }
+}

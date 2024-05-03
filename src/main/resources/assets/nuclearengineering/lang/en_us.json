@@ -30,6 +30,10 @@
   "item.nuclearengineering.dustp": "Plutonium-238 Dust",
   "item.nuclearengineering.dustsr": "Strontium-90 Dust",
   "item.nuclearengineering.dusty": "Yttrium-90 Dust",
+  "item.nuclearengineering.dustdu": "Depleted Uranium Dust",
+  "item.nuclearengineering.dustheu": "Highly Enriched Uranium Dust",
+  "item.nuclearengineering.dustmgu": "Military Grade Uranium Dust",
+  "item.nuclearengineering.dustleu": "Lightly Enriched Uranium Dust",
 
   "item.nuclearengineering.pelleta": "Americium-241 Pellet",
   "item.nuclearengineering.pelletce": "Cesium-137 Pellet",
@@ -39,5 +43,15 @@
   "item.nuclearengineering.pelletm": "Molybdenum-99 Pellet",
   "item.nuclearengineering.pelletp": "Plutonium-238 Pellet",
   "item.nuclearengineering.pelletsr": "Strontium-90 Pellet",
-  "item.nuclearengineering.pellety": "Yttrium-90 Pellet"
+  "item.nuclearengineering.pellety": "Yttrium-90 Pellet",
+
+  "item.nuclearengineering.ceramic_plate": "Ceramic Plate",
+  "item.nuclearengineering.thermo_junction": "Thermoelectric Junction",
+  "item.nuclearengineering.small_thermo_gen": "Small Thermoelectric Generator",
+  "item.nuclearengineering.large_thermo_gen": "Large Thermoelectric Generator",
+
+  "block.nuclearengineering.rtg_beta": "Beta-M RTG",
+  "block.nuclearengineering.rtg_efir": "Efir-MA RTG",
+  "block.nuclearengineering.rtg_gong_gorn": "Gong/Gorn RTG",
+  "block.nuclearengineering.rtg_ieu": "IEU-1/1M RTG"
 }

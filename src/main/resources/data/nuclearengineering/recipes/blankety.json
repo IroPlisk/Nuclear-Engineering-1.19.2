@@ -1,0 +1,20 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "enhancedgeology:zircalloyplate",
+      "count": 4
+    },
+    {
+      "tag": "forge:dusts/yttrium",
+      "count": 3
+    }
+  ],
+  "result": [
+    {
+      "item": "nuclearengineering:blankety",
+      "count": 1
+    }
+  ],
+  "energy": 10000
+}

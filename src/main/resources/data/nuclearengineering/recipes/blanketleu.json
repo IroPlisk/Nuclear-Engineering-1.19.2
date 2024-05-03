@@ -1,0 +1,20 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "item": "enhancedgeology:zircalloyplate",
+      "count": 4
+    },
+    {
+      "item": "nuclearengineering:dustleu",
+      "count": 3
+    }
+  ],
+  "result": [
+    {
+      "item": "nuclearengineering:blanketleu",
+      "count": 1
+    }
+  ],
+  "energy": 10000
+}

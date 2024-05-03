@@ -20,7 +20,7 @@ plugins {
     id 'org.spongepowered.mixin' version '0.7.+'
 }
 
-version = '0.1'
+version = '1.0'
 group = 'com.iroplisk.nuclearengineering' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'nuclearengineering'
 
@@ -154,6 +154,7 @@ dependencies {
     implementation fg.deobf("curse.maven:cofh-core-69162:4801049")
     implementation fg.deobf("curse.maven:thermal-expansion-69163:4782929")
     implementation fg.deobf("curse.maven:chemlib-340666:4770563")
+    implementation fg.deobf("curse.maven:mekanism-268560:4644795")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
