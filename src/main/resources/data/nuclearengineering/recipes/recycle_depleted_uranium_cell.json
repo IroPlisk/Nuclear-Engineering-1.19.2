@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "ic2:uranium_rod_near_depleted"
+  },
+  "result": "ic2c_extras:empty_nuclear_rod",
+  "experience": 1.0,
+  "cookingtime": 100
+}
